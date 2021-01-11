@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hi there! Welcome to my website.">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/CSS/Grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/CSS/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/CSS/queries.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet"> <!-- fonts -->
+        
+        <title>Nikita Aggarwal</title>
+        
+        <meta name="theme-color" content="#ffffff"> 
+        
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/images/NikitasLogoV2.png" alt="personallogo" class="logo">
+                    <ul class="main-nav js--main-nav">
+                        <li><a class="js--scroll-to-about-me" href="#">About me</a></li>
+                        <li><a class="js--scroll-to-projects" href="#">Projects</a></li>
+                        <li><a class="js--scroll-to-contacts" href="#">Contacts and links</a></li>
+                       <!-- <li><a href="#about">About me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts and links</a></li> -->
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Nikita Aggarwal</h1>
+                <a class="btn btn-full" href="https://nikitaaggarwal1.github.io/resources/Resume_NikitaAggarwal_Jan10,2020.pdf" target="_blank" >
+                    Resume
+                </a>
+                
+                <a class="btn btn-ghost" href="https://github.com/nikitaaggarwal1/nikitaaggarwal1.github.io" target="_blank">View Website Code</a>
+            </div>
+        </header>
+        
+        
+        <a id="about"></a>
+        <section class="about-me js--section-features js--about-me">
+            <div class="row">
+                <h2>About me</h2>
+            </div>
+            <div class="row about-me-description">
+                <p>Hey I'm Nikita. <br> I’m currently enrolled in third year Bachelor’s of applied Science at the University of Calgary. I decided to pursue Mechanical Engineering as it is the most diverse and would allow me to experiment in a variety of work and industries. As a Mechanical Engineer, I enjoy solving complex problems and finding creative solutions. Now as Mechanical Engineer, I am looking to gain engineering experience.</p>
+            </div>
+        </section>
+        
+        
+        <a id="projects"></a>
+        <section class="projects js--projects">
+            <div class="row">
+                <h2>Personal Projects</h2>
+            </div>
+            
+            
+            
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
+                        <h3>Steam Engine Turbine</h3>
+                        <p>This is a Steam Turbine Engine designed during my second year’s Thermodynamics course. The turbine buckets were 3D printed to capture maximum wind possible.  The turbine coverts thermal energy to mechanical and the motor converts mechanical energy to electrical energy. Used thermodynamic laws to meet design specification such as voltage and rotational turbine speed, under a restricted budget and time frame.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="col span-1-of-2">
+                    <img src="resources/images/steamEnginerTurbingPic.png" alt="steam engine turbine" class="steamEngineTurbine-screen">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
+                        <h3>Ansys Software - Stress Distribution</h3>
+                        <p>A 2-Dimensional triangular element with a semi circle cut out from the bottom edge was defined using Young’s elastic modulus and Poisson’s ratio. The ‘plane 183’ element was given a boundary condition by fixing the left side and applying a distributed load on the right side and recording the plain stress distribution. Progressive accuracy of the stress distribution’s x component was achieved by increasing the mesh elements to obtain a more finer mesh. The iterative process of the mesh 
+refinement assisted in revealing local stress concentration patterns in an area which is close to the load application, until eventually  convergence is reached.</p>
+                    </div>
+        
+                </div>
+                <div class="col span-1-of-2">
+                    <img src="resources/images/AnsysPic.png" alt="pic of Ansys thingy" class="Ansys-screen">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
+                        <h3>Real Time 3D EEG Visualization</h3>
+                        <h5>NeuroNexus 2020 (Hackathon)</h5>
+                        <p>Created a Real time visualization which functions by recording electromagnetic signals from the strong nodes within the brain networks. Responsible for creating one minute picture video presentation, planning a demo date and writing multiple progress reports. The progress reports consisted of problem identification, evaluation criteria, prototyping evaluation and the degree of success for real data transferability. I learned how to operate a EEG machine in order to transfer real time data and analyze the results based on the evaluation criteria.</p>
+                    </div>
+        
+                </div>
+                <div class="col span-1-of-2">
+                    <img src="resources/images/NeuroNexusPic.png" alt="pic of brain" class="NeuroNexus-screen">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
+                        <h3>Digital Dashboard</h3>
+                        <p>The project “Digital Dashboard” is designed for a mini car or a truck, depending on the user’s input. The dashboard consists of displaying the speed, RPM, average fuel economy and fuel consumption, a compass and a range, regarding the type of vehicle. The code for digital Dashboard was implemented using Processing and logical commands such as loops or if- else condition statements were utilized in order to prompt the user for an input, calculate direction, fuel economy, current speed, or plot fuel consumption graph.</p>
+                    </div>
+                    
+                    <a class="btn btn-ghost" href="https://github.com/nikitaaggarwal1/DigitalDashboard">view code</a>
+        
+                </div>
+                <div class="col span-1-of-2">
+                    <img src="resources/images/DigitalDashPic.png" alt="pic of DigitalDash" class="DigitalDash-screen">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
+                        <h3>Sensory Robot</h3>
+                        <p>This is a sensory robot, which functions based on detecting an object via light sensitivity. The code was implemented in Processing and the prototypes were constructed in SolidWorks. The design process was followed such a defining the problem, gaining clarity or background information, confirming the exact problem by using all relevant facts and the testing stage. During the testing stage, a scoring - grid method was used in order to evaluate the degree of success for each category such as the design specification, time taken to perform the required tasks, aesthetic, reliability and functionality. Work and energy calculations were also performed in order for the sensory robot to be able to pick up the block of wood which was a design specification.</p>
+                    </div>
+        
+                </div>
+                <div class="col span-1-of-2">
+                    <img src="resources/images/SensoryRobotPic.png" alt="pic of robot" class="SensoryRobot-screen">
+                </div>
+            </div>
+        </section>
+        
+        
+        <a id="contacts"></a>
+        <section class="contacts-and-links js--contacts">
+            <div class="row">
+                <h2>Contacts and Links</h2>
+            </div>
+            <div class="row">
+                <ul>
+                    
+                    <li>
+                        <div class="email">
+                            <a href="mailto:nikita.aggarwal1@ucalgary.ca" target="_blank"><i class="ion-ios-email"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="github">
+                            <a href="https://github.com/nikitaaggarwal1" target="_blank"><i class="ion-social-github"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="resume">
+                            <a href="https://nikitaaggarwal1.github.io/resources/Resume_NikitaAggarwal_Jan10,2020.pdf" target="_blank"><i class="ion-document-text"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <p>
+                        Copyright © 2021 Nikita Aggarwal
+                    </p>
+                
+            </div>
+        </footer>
+        
+        
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+    </body>
+</html>
