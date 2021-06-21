@@ -27,7 +27,7 @@ $(document).ready(function() {
     /*------mobile nav-----------*/
     
     
-    /*---Open and hides the menu on a mobile device---*/
+    /*---Open and hides the menu on a mobile device and replaces the icon---*/
     $('.js--nav-icon').click(function(){
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
