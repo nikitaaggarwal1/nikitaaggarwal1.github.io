@@ -33,11 +33,11 @@ $(document).ready(function() {
         var icon = $('.js--nav-icon i');      
         nav.slideToggle(200);
         
-        if(icon.hasClass('ion-navicon-round')){
+        if(icon.hasClass('ion-navicon-round')){ /*---Opening the menu---*/
             icon.addClass('ion-close-round');    /*---Replacing the 3 bar menu icon with the X icon---*/
             icon.removeClass('ion-navicon-round');
         } else{
-            icon.addClass('ion-navicon-round');
+            icon.addClass('ion-navicon-round'); /*---Closing the menu---*/
             icon.removeClass('ion-close-round');   /*---Replacing the X icon with the 3 bar menu icon---*/
         }
     });
