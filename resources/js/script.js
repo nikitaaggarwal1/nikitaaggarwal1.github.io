@@ -30,15 +30,15 @@ $(document).ready(function() {
     /*---Open and hides the menu on a mobile device and replaces the icon---*/
     $('.js--nav-icon').click(function(){
         var nav = $('.js--main-nav');
-        var icon = $('.js--nav-icon i');
+        var icon = $('.js--nav-icon i');      
         nav.slideToggle(200);
         
         if(icon.hasClass('ion-navicon-round')){
-            icon.addClass('ion-close-round');
+            icon.addClass('ion-close-round');    /*---Replacing the 3 bar menu icon with the X icon---*/
             icon.removeClass('ion-navicon-round');
         } else{
             icon.addClass('ion-navicon-round');
-            icon.removeClass('ion-close-round');
+            icon.removeClass('ion-close-round');   /*---Replacing the X icon with the 3 bar menu icon---*/
         }
     });
 });
